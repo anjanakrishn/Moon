@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background-image: url('https://www.nasa.gov/sites/default/files/thumbnails/image/moon_0.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  background-color: rgba(20, 20, 20, 0.8);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #00ccff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-top: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.intro ul {
+  margin-top: 30px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.intro ul li {
+  margin-bottom: 15px;
+  list-style: disc;
+}
+
+.facts ul {
+  margin-top: 30px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.facts li {
+  margin-bottom: 30px;
+  list-style: disc;
+}
+
+.fact-img {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.exploration {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.exploration h2 {
+  margin-top: 30px;
+  color: #00ccff;
+}
+
+.exploration ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #ccc;
+  }
